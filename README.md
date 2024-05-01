@@ -9,6 +9,7 @@ Streamlitを使用して、ローカル環境で簡易的なWebアプリケー�
 アプリケーションの目的は、ユーザーがデータを入力し、それに基づいた結果を表示することである。
 
 ## 2. ファイル・フォルダ構成
+```
 .
 ├── data/
 │   └── workvantage_customer_data.csv
@@ -22,10 +23,8 @@ Streamlitを使用して、ローカル環境で簡易的なWebアプリケー�
 └── tests/
     └── test_app.py
 
-![シーケンス図](diagrams/sequence.png)
+```
 
-## 3. アーキテクチャ図
-![アーキテクチャ](diagrams/app_architecture.png)
 
 ## 4. Streamlitコンポーネント
 - アプリケーションを構成する主要なStreamlitコンポーネントを列挙
